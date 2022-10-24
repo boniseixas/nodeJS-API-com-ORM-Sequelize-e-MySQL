@@ -1,6 +1,6 @@
 # ORM com NodeJS: API com Sequelize e MySQL
 
-![Logo JavaScript](/logos/<img src="JavaScript.png" width="200" height="200">)
+<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="200" height="200">
 *****
 **ORM** *(Object-relational mapping)* **Mapeamento objeto-relacional**, é uma técnica de desenvolvimento utilizada para reduzir a impedância da **[programação orientada a objeto](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)** utilizando bancos de dados relacionais. 
 
