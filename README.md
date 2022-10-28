@@ -1,6 +1,6 @@
 # ORM com NodeJS: API com Sequelize e MySQL
 
-<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80">
+<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <img src="/logos/Sequelize.png" alt="Logo Sequelize" width="160" height="80">
 
 *****
 
@@ -8,12 +8,18 @@
 
 Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados neste treinamento são:
 1. Estruturando o projeto
-2. Modelos, migrações e seeds
-3. Controladores e rotas
+2. Models, migrations e seeders
+3. Controllers e routes
 4. CRUD com Sequelize
 5. Relações e associações
 6. Controladores
+
 *****
+
+## Introduction
+The Node.js Training with Express, enabled me to build with JavaScript, backends for scalable websites. Developing APIs using the REST standard, using Express, one of the most popular web frameworks on the Node.js platform, using databases efficiently and all with the security of REST APIs.
+The training brought me understanding of the main points related to the development of REST APIs and provided me with knowledge to build backend systems using Node.js and Express.
+
 ## 1. Estruturando o projeto
 **Neste tópico, aprendi:**
 * Criar um novo projeto do zero com Sequelize;
@@ -22,14 +28,14 @@ Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST 
 * Fazer a instalação do MySQL e como acessar via terminal; e
 * Criar um novo banco de dados e conectá-lo à aplicação.
 
-## 2. Modelos, migrações e seeds
+## 2. Models, migrations e seeders
 **Neste tópico aprendi:**
 * Criar modelos e arquivos de migração via terminal;
 * O que são e para que servem migrações com ORMs;
 * Executar migrações para criação de tabelas no banco; e
 * Popular tabelas automaticamente através de arquivos seed.
 
-## 3. Controladores e rotas
+## 3. Controllers e routes
 **Neste tópico aprendi:**
 * Como funciona o modelo MVC;
 * O que é e para que serve a camada de controle;
@@ -38,3 +44,11 @@ Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST 
 * A separar a responsabilidade das rotas para termos uma aplicação organizada;
 * Como criar uma rota para o modelo Pessoas; e
 * A chamar um método do controlador Pessoas através da rota com o verbo HTTP GET.
+
+## 4. CRUD com Sequelize
+**Neste tópico aprendi a:**
+* Utilizar outros métodos do Sequelize para as operações de CRUD;
+* Enviar dados através de parâmetros de requisição HTTP;
+* Enviar dados através do corpo da requisição HTTP;
+* Criar rotas para cada operação; e
+* Associar as rotas a cada método do controlador Pessoas.
