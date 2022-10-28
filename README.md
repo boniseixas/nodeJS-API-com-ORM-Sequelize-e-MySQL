@@ -1,6 +1,6 @@
 # ORM com NodeJS: API com Sequelize e MySQL
 
-<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <img src="/logos/Sequelize.png" alt="Logo Sequelize" width="160" height="80">
+<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <img src="/logos/Sequelize.jpg" alt="Logo Sequelize" width="160" height="80">
 
 *****
 
