@@ -1,6 +1,6 @@
 # ORM com NodeJS: API com Sequelize e MySQL
 
-<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <img src="/logos/Sequelize.jpg" alt="Logo Sequelize" width="160" height="80">
+<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <img src="/logos/Sequelize.png" alt="Logo Sequelize" width="160" height="80"> <img src="/logos/Express-retangulo.png" alt="Logo do Express" width="80" height="100">
 
 *****
 
@@ -52,3 +52,12 @@ The training brought me understanding of the main points related to the developm
 * Enviar dados através do corpo da requisição HTTP;
 * Criar rotas para cada operação; e
 * Associar as rotas a cada método do controlador Pessoas.
+
+## 5. Relações e associações
+**Neste tópico aprendi a:**
+* Interpretar o diagrama de banco;
+* Identificar os tipos de relação pedidos no projeto;
+* Associar tabelas através de métodos do Sequelize;
+* Referenciar tabelas associadas;
+* Migrar tabelas associadas; e
+* Popular tabelas associadas.
