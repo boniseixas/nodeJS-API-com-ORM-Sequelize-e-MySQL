@@ -1,6 +1,14 @@
 # ORM com NodeJS: API com Sequelize e MySQL
 
-<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80"> <img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80"> <a href="https://sequelize.org/docs/v6/"><img src="/logos/Sequelize.png" alt="Logo Sequelize" width="120" height="80"></a> <img src="/logos/Express-circulo.png" alt="Logo do Express" width="80" height="80"> <img src="/logos/mysql.png" alt="Logo MySQL" width="80" height="80"> <img src="/logos/VS Code.png" alt="Logo VS Code" width="80" height="80"> <img src="/logos/Postman.png" alt="Logo Postman" width="80" height="80">
+<img src="/logos/JavaScript.png" alt="Logo JavaScript" width="80" height="80">
+<img src="/logos/node-js.png" alt="Logo NodeJS" width="80" height="80">
+<a href="https://sequelize.org/docs/v6/" target="_blank">
+   <img src="/logos/Sequelize.png" alt="Logo Sequelize" width="120" height="80">
+</a>
+<img src="/logos/Express-circulo.png" alt="Logo do Express" width="80" height="80">
+<img src="/logos/mysql.png" alt="Logo MySQL" width="80" height="80">
+<img src="/logos/VS Code.png" alt="Logo VS Code" width="80" height="80">
+<img src="/logos/Postman.png" alt="Logo Postman" width="80" height="80">
 
 *****
 
