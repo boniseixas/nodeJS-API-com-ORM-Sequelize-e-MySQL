@@ -28,25 +28,24 @@ The training brought me understanding of the main points related to the developm
 * Fazer a instalação do MySQL e como acessar via terminal; e
 * Criar um novo banco de dados e conectá-lo à aplicação.
 
-   <html>
-      <head>
-         const express = require('express')
-         const bodyParser = require('body-parser')
+~~~
+const express = require('express')
+const bodyParser = require('body-parser')
 
-         const app = express()
+const app = express()
 
-         app.use(bodyParser.json())
+app.use(bodyParser.json())
 
-         const port = 3000
+const port = 3000
 
-         app.get('/teste', (req, res) => res
-            .status(200)
-            .send({ mensagem: 'boas-vindas à API'}))
-         app.listen(port, () => console.log(`servidor está rodando na porta ${port}`))
+app.get('/teste', (req, res) => res
+   .status(200)
+   .send({ mensagem: 'boas-vindas à API'
+}))
+app.listen(port, () => console.log(`servidor está rodando na porta ${port}`))
 
-         module.exports = app
-      </head>
-   </html>
+module.exports = app
+~~~
 
 ## 2. Models, migrations e seeders
 **Neste tópico aprendi:**
