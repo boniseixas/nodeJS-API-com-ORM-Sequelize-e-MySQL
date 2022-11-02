@@ -28,7 +28,7 @@ The training brought me understanding of the main points related to the developm
 * Fazer a instalação do MySQL e como acessar via terminal; e
 * Criar um novo banco de dados e conectá-lo à aplicação.
 
-~~~
+~~~JavaScript
 const express = require('express')
 const bodyParser = require('body-parser')
 
