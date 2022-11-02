@@ -28,7 +28,7 @@ The training brought me understanding of the main points related to the developm
 * Fazer a instalação do MySQL e como acessar via terminal; e
 * Criar um novo banco de dados e conectá-lo à aplicação.
 
-~~~JavaScript
+~~~Java Script
 const express = require('express')
 const bodyParser = require('body-parser')
 
@@ -63,6 +63,20 @@ module.exports = app
 * A separar a responsabilidade das rotas para termos uma aplicação organizada;
 * Como criar uma rota para o modelo Pessoas; e
 * A chamar um método do controlador Pessoas através da rota com o verbo HTTP GET.
+
+~~~Java Script
+const { Router } = require('express')
+const PessoaController = require('../controllers/PessoaController')
+
+const router = Router()
+
+router
+   .get('/pessoas', PessoaController.buscaTodasAsPessoas)
+   .get('/pessoas/:id', PessoaController.buscaPessoaPorId)
+   .post('/pessoas', PessoaController.criaPessoa)
+
+module.exports = router
+~~~
 
 ## 4. CRUD com Sequelize
 **Neste tópico aprendi a:**
