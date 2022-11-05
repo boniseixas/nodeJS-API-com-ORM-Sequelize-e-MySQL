@@ -6,6 +6,9 @@
 
 **ORM** *(Object-relational mapping)* **Mapeamento objeto-relacional**, é uma técnica de desenvolvimento utilizada para reduzir a impedância da **[programação orientada a objeto](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)** utilizando bancos de dados relacionais. 
 
+## Links úteis:
+- [Como utilizar o NVM para gerenciar as versões do Node.js instaladas no computador](https://www.alura.com.br/artigos/descomplicando-o-trabalho-com-node)
+
 Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados neste treinamento são:
 1. Estruturando o projeto
 2. Models, migrations e seeders
@@ -13,6 +16,7 @@ Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST 
 4. CRUD com Sequelize
 5. Relações e associações
 6. Controladores
+7. Soft delete (exclusão suave)
 
 *****
 
@@ -102,3 +106,12 @@ module.exports = router
 * Enviar dados via parâmetros e corpo das requisições;
 * Utilizar estes dados para encontrar informações no banco; e
 * Gerar estruturas de dados do tipo JSON com informações úteis ao usuário.
+
+# 7. Soft delete (exclusão suave)
+O que aprendemos?
+**Habilidades desenvolvidas neste tópico:**
+* Atualizar a versão do Sequelize-cli;
+* Adicionar a opção "Paranoid" para fazer a exclusão suave;
+* Criar migrações para adicionar colunas às tabelas;
+* Criar coluna deletedAt para utilizar o recurso de exclusão suave; e
+* Restaurar registros deletados via exclusão suave, utilizando o .restore().
