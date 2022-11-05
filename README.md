@@ -7,7 +7,15 @@
 **ORM** *(Object-relational mapping)* **Mapeamento objeto-relacional**, é uma técnica de desenvolvimento utilizada para reduzir a impedância da **[programação orientada a objeto](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)** utilizando bancos de dados relacionais. 
 
 ## Links úteis:
-- [Como utilizar o NVM para gerenciar as versões do Node.js instaladas no computador](https://www.alura.com.br/artigos/descomplicando-o-trabalho-com-node)
++ [Como utilizar o NVM para gerenciar as versões do Node.js instaladas no computador](https://www.alura.com.br/artigos/descomplicando-o-trabalho-com-node)
++ [Importação e exportação de módulos com JavaScript](https://www.alura.com.br/artigos/guia-importacao-exportacao-modulos-javascript)
++ [NodeJS](https://nodejs.org/en/docs/)
++ [NPM](https://www.npmjs.com/)
++ [Documentação do Sequelize](https://sequelize.org/docs/v6/)
++ [Database MySQL](https://dev.mysql.com/doc/)
++ [Postman](https://www.postman.com/)
+
+*****
 
 Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados neste treinamento são:
 1. Estruturando o projeto
@@ -99,7 +107,7 @@ module.exports = router
 * Migrar tabelas associadas; e
 * Popular tabelas associadas.
 
-# 6. Controllers
+## 6. Controllers
 **Neste tópico aprendi a:**
 * Adicionar novos controladores;
 * Trabalhar com mais de um modelo no mesmo controlador;
@@ -107,8 +115,7 @@ module.exports = router
 * Utilizar estes dados para encontrar informações no banco; e
 * Gerar estruturas de dados do tipo JSON com informações úteis ao usuário.
 
-# 7. Soft delete (exclusão suave)
-O que aprendemos?
+## 7. Soft delete (exclusão suave)
 **Habilidades desenvolvidas neste tópico:**
 * Atualizar a versão do Sequelize-cli;
 * Adicionar a opção "Paranoid" para fazer a exclusão suave;
