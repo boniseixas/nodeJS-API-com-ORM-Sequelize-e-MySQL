@@ -122,3 +122,45 @@ module.exports = router
 * Criar migrações para adicionar colunas às tabelas;
 * Criar coluna deletedAt para utilizar o recurso de exclusão suave; e
 * Restaurar registros deletados via exclusão suave, utilizando o .restore().
+
+## 8. Escopo de models e validations
+**Habilidades desenvolvidas neste tópico:**
+* Definir um escopo de modelo padrão (defaultScope);
+* Definir outros escopos adicionais, conforme necessidade do projeto;
+* Utilizar um escopo adicional com o método .findAll();
+* Validar dados de entrada utilizando validadores próprios do Sequelize; e
+* Refinar e customizar validações de campos utilizando funções e JS puro.
+
+~~~Java Script
+Pessoas.init({
+    nome: {
+      type: DataTypes.STRING,
+      validate: {
+        validaNome: function(nome) {
+          if(nome.length <= 3) throw new Error('o nome deve ter mais de três caracteres')
+        }
+      }
+    },
+    ativo: DataTypes.BOOLEAN,
+    email: {
+      type: DataTypes.STRING,
+      validate: {
+        isEmail: {
+          args: true,
+          msg: 'dado do tipo e-mail inválido'
+        }
+      }
+    },
+    role: DataTypes.STRING
+  }, {
+    sequelize,
+    modelName: 'Pessoas',
+    paranoid: true,
+    defaultScope: {
+      where: { ativo: true }
+    },
+    scopes: {
+      todos: { where: {} },
+    }
+  });
+  ~~~
