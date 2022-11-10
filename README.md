@@ -25,6 +25,7 @@ Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST 
 5. Relações e associações
 6. Controladores
 7. Soft delete (exclusão suave)
+8. Escopo de models e validations
 
 *****
 
@@ -164,3 +165,37 @@ Pessoas.init({
     }
   });
   ~~~
+
+## 9. Escopo de associações e operadores
+**Habilidades desenvolvidas neste tópico:**
++ Compreensão do que são escopos de associação;
++ Definir um novo escopo de associação;
++ Utilizar métodos próprios/mixins em tabelas associadas;
++ Adicionar um filtro de busca via parâmetros de query;
++ Utilizar operadores para fazer operações com dados;
++ Retornar resultados filtrados através de operadores;
++ Filtrar e enumerar registros com métodos "finders";
++ Ordenar os resultados com a opção "order";
++ Agrupar registros com "group"; e
++ Passar comandos do SQL dentro do Sequelize com Sequelize.literal().
+
+~~~Java Script
+static async buscaTurmasLotadas(req, res) {
+      const alunosMaximoPorTurma = 2
+      try {
+         const turmasLotadas = await database.Matriculas
+            .findAndCountAll({
+               where: {
+                  status: 'confirmado'
+               },
+               attributes: ['turma_id'],
+               group: ['turma_id'],
+               having: Sequelize.literal(`count(turma_id) >= ${alunosMaximoPorTurma}`)
+            })
+         return res.status(200).json(turmasLotadas.count)
+      } catch (error) {
+         return res.status(500).json(error.message)
+      }
+   }
+~~~
+
