@@ -199,3 +199,8 @@ static async buscaTurmasLotadas(req, res) {
    }
 ~~~
 
+## 10. Transações
+**Habilidades desenvolvidas neste tópico:**
+- Criar métodos para atualizar mais de uma tabela;
+- Adicionar transações (sequelize.transaction()) às operações de banco via Sequelize; e
+- Interpretar avisos de versionamento e fazer correções.
