@@ -18,7 +18,7 @@
 *****
 
 Este treinamento faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados são:
-[`1. Estruturando o projeto`](#1-estruturando-o-projeto1)
+[1. Estruturando o projeto](#1-estruturando-o-projeto1)
 2. Models, migrations e seeders
 3. Controllers e routes
 4. CRUD com Sequelize
