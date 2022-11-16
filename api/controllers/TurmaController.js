@@ -10,7 +10,7 @@ class TurmaController {
       data_inicial ? where.data_inicio[Op.gte] = data_inicial : null
       data_final ? where.data_inicio[Op.lte] = data_final : null
       try {
-         const todasAsTurmas = await database.Turmas.findAll({ where })
+         const todasAsTurmas = await turmasServices.buscaTodosOsRegistros(where)
          return res.status(200).json(todasAsTurmas)
       } catch (error) {
          return res.status(500).json(error.message)
