@@ -17,8 +17,8 @@
 
 *****
 
-Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados neste treinamento são:
-1. Estruturando o projeto
+Este treinamento faz parte da **Formação em Node.js com Express - Criando APIs REST em Node com Express**. Os tópicos abordados são:
+[`1. Estruturando o projeto`](#1-estruturando-o-projeto1)
 2. Models, migrations e seeders
 3. Controllers e routes
 4. CRUD com Sequelize
@@ -26,6 +26,9 @@ Este curso faz parte da **Formação em Node.js com Express - Criando APIs REST 
 6. Controladores
 7. Soft delete (exclusão suave)
 8. Escopo de models e validations
+9. Escopo de associações e operadores
+10. Transações
+11. Refatoração com serviços
 
 *****
 
@@ -204,3 +207,15 @@ static async buscaTurmasLotadas(req, res) {
 - Criar métodos para atualizar mais de uma tabela;
 - Adicionar transações (sequelize.transaction()) às operações de banco via Sequelize; e
 - Interpretar avisos de versionamento e fazer correções.
+
+## 11. Refatoração com serviços
+**Habilidades desenvolvidas neste tópico**
++ Criar uma camada de serviços;
++ Transferir a interface com a database do controlador para o serviço;
++ Atualizar o código no controlador para acessar os serviços;
++ Criar serviços específicos que herdem métodos da classe principal;
++ Organizar os serviços criando um ponto de entrada (index.js);
++ Criar métodos específicos para um serviço/modelo;
++ Passar parâmetros de controladores para serviços;
++ Conectar serviços entre si; e
++ Refatorar a aplicação para separar controladores e serviços.
